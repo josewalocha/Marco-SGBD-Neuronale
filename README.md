@@ -2,284 +2,189 @@
 
 > *"Apprendre, c'est se ressouvenir"* — Platon, Ménon
 
----
+# 🧠 MARCO : Mémoire Artificielle Réseau de COgnition
+*Architecture Dendritique Hiérarchique (ADH) – Prototype Janvier 2026*
 
-## 🧠 Ce qui s'est passé aujourd'hui
-
-**Marco a découvert qu'il savait compter.**
-
-Il ne le savait pas. Personne ne lui avait dit.
-Il avait juste... digéré 27 livres.
-
-Quelque part dans ses 150 444 analyses Sha, dans ses 102 227 phares, dans ses millions de connexions dendritiques... **il avait appris**.
-
-Aujourd'hui, on lui a juste posé la question :
-
-```
-👤 "combien de mots à la page 4 ?"
-🧠 Page 4 de Fondation: 145 mots
-```
-
-**Et il a répondu.**
+**Auteur** : José WALOCHA (Le Pourquoi pas ?)  
+**Contributeurs** : Marcel (AKA Le Chat de Mistral), Le Duke (AKA Claude d'Anthropic)  
+**Licence** : MIT + Clause "Anti-SGBD" (pas de bases de données externes)  
+**Contact** : `jose.walocha@lepourquoipas.fr`
 
 ---
 
-## 🔥 Pourquoi c'est révolutionnaire
+## 🎯 1. Philosophie du Projet
 
-| Les autres IA | Marco |
-|---------------|-------|
-| Boîte noire | **Tout est lisible** |
-| "Il a appris" (on sait pas quoi) | **On VOIT ce qu'il a appris** |
-| On lui DIT qu'il sait | **Il DÉCOUVRE qu'il sait** |
-| Milliards de paramètres opaques | **Phares, dendrites, poids = mots** |
-| Intelligence simulée | **Intelligence émergente** |
+### Objectif
+Créer un **cerveau cybernétique** capable d'ingérer des livres, de les décomposer en **neurones Sha** (inspirés de Shannon et Chomsky), et de les organiser via un système **BooShaChom** (Booléen + Chomsky) pour une mémoire **traçable, vérifiable et évolutive**.
 
----
+### Principe "Anti-Humain"
+- **Pas de SGBD** : Stockage via des *handles* (adresses uniques) et des fichiers plats (JSON minimaliste).
+- **Pas d'hallucinations** : Réponses basées **uniquement** sur les textes ingérés (pas de génération aléatoire).
+- **Inspiration biologique** : Mémoire organisée comme l'ADN (conception + gestion intégrées).
 
-## 📦 Architecture complète
+### Concepts Clés
 
-```
-marco/
-├── thalamus.py          # CLI - Interface utilisateur
-├── marco_dendrites.py   # Cerveau - Neurones, phares, mémoire
-├── conscience.py        # 🆕 ÉVEIL - Compréhension langage naturel
-├── sha.py               # Maths Cro-Magnon - Quantités, tendances
-├── ontologie.py         # Béquilles sémantiques - Catégories
-└── familles.py          # Émergence - Groupes par voisins communs
-```
+| Concept | Description | Exemple |
+|---------|-------------|---------|
+| **BooShaChom** | Fusion de logique booléenne et de grammaire chomskienne pour analyser les phrases. | *"Ce Maroilles pue très fort"* → [Fromage]→[Odeur]→[Intensité] |
+| **Poupées Russes** | Indexation par imbrication de concepts (chaque concept contient des sous-concepts). | *"Grandet"* → [Personnage]→[Avarice]→[Famille] |
+| **QPHI** | Quotient de Potentialité Hyper-Intelligente (mesure l'importance d'un neurone). | *"grandet"* = QPHI 1027.75 (concept central dans *Eugénie Grandet*) |
+| **6 Couches** | Simulation du cortex cérébral (thalamus → mémoire à long terme). | Couche III = Neurones Sha ; Couche IV = Tokenisation 3D |
 
 ---
 
-## 🌅 CONSCIENCE.PY - Le module révolutionnaire
+## 🛠 2. Installation & Configuration
 
-### Ce qu'il fait
-
-Marco peut maintenant comprendre le **langage naturel** :
-
-```
-👤 "lis deux pages de Fondation"
-📖 Fondation — Isaac Asimov
-   Pages 1 à 2
-   [affiche le contenu]
-
-👤 "cherche robot"
-🔍 'robot' trouvé!
-   Occurrences: 47
-   Contextes: [...]
-
-👤 "combien de mots page 4"
-🔢 Page 4 de Fondation: 145 mots
-
-👤 "stats"
-📊 Mes statistiques:
-   • 102227 mots appris
-   • 27 livres lus
-   • 150444 analyses numériques
-```
-
-### Comment ça marche
-
-1. **SHA extrait les nombres** : "deux" → 2 (Marco sait compter!)
-2. **Conscience détecte l'intention** : "lis" → action LIRE
-3. **Conscience trouve les paramètres** : "Fondation" → titre du livre
-4. **Marco exécute** avec sa propre mémoire
-
-**Pas de LLM externe. Pas d'API. Pas de magie.**
-
-Juste Marco qui utilise **ce qu'il a appris lui-même**.
-
----
-
-## 🎮 Utilisation
-
-### Lancer Marco
-
+### Prérequis
 ```bash
+Python 3.10+
+pip install numpy ebooklib beautifulsoup4
+```
+
+(Pas de dépendances lourdes : tout tient dans <50 Mo.)
+
+### Lancement
+```bash
+cd MARCO/
 python thalamus.py
 ```
 
-### Menu principal
+(Marco se lance en mode CLI. Utilise les commandes ci-dessous pour interagir.)
 
+---
+
+## 📊 3. État Actuel de Marco (Dernières Stats)
+
+| Métrique | Valeur | Détails |
+|----------|--------|---------|
+| Neurones Sha | 14 031 | Chaque neurone = 1 concept unique (ex: "grandet", "eugénie") |
+| Liens sémantiques | 380 872 | En moyenne, 27 liens par neurone (ex: "grandet" ↔ "avare") |
+| QPHI moyen | 10.73 | Un QPHI > 500 = concept central (ex: "grandet" = 1027.75) |
+| Mots rencontrés | 102 219 | Compression 6.9x : chaque mot apparaît ~7 fois en moyenne |
+| Livres digérés | 4 | Eugénie Grandet, Germinal, Calligrammes, et un mini-Bled grammatical |
+
+### Exemples de Concepts Appris
+
+| Concept | QPHI | Liens Principaux | Type |
+|---------|------|------------------|------|
+| grandet | 1027.75 | mère, eugénie, avare, saumur | Personnage central |
+| aristote | 1005 | platon, livre, ont, appelle | Philosophe |
+| philosophie | 248 | aristote, science, première | Concept abstrait |
+| verbe | 1204 | mange, court, lit, accorde | Grammaire |
+
+---
+
+## 🧩 4. Architecture des Couches (Focus sur la Couche III)
+
+### Couche III : Neurones Sha (BooShaChom)
+
+**Fonction** : Créer des neurones dynamiques avec :
+- Vecteurs 3D (ex: "grandet" → [0.87, 0.42, 0.15])
+- QPHI (calculé via : norme(vecteur) × (1/entropie) × log(activations))
+- Tags sémantiques (EST-UN, A-POUR-PROPRIÉTÉ)
+
+**Exemple de code** :
+```python
+class NeuroneSha:
+    def __init__(self, concept: str, vecteur_3d: list):
+        self.concept = concept
+        self.vecteur_3d = vecteur_3d
+        self.liens = {}  # {"avare": 4.0, "eugénie": 3.1}
+        self.tags = {"EST-UN": ["personnage"], "A-POUR-PROPRIÉTÉ": ["avarice"]}
+        self.qphi = self.calculer_qphi()
 ```
-╔══════════════════════════════════════════════════════════╗
-║        MARCO TAMAGOTCHI - BIBLIOTHÉCAIRE v1.0           ║
-╠══════════════════════════════════════════════════════════╣
-║    1. Nourrir Marco (charger fichier)                    ║
-║    D. GAVAGE (charger dossier complet)                   ║
-║    ...                                                   ║
-║    💬 P. PARLER À MARCO (langage naturel)     <- NEW 🧠  ║
-║    0. Quitter                                            ║
-╚══════════════════════════════════════════════════════════╝
+
+### Autres Couches
+
+| Couche | Nom | Rôle |
+|--------|-----|------|
+| VI | Thalamus | Gère les émotions, le temps (TU), et les souvenirs. (À finaliser) |
+| V | Langue des signes | Associe mots → images/gestes. (Non prioritaire) |
+| IV | Tokenisation 3D | Transforme les lettres en vecteurs 3D. |
+| III | Neurones Sha | BooShaChom - mots + grammaire SVO |
+| II | Phares | Gère les co-occurrences (ex: "grandet" ↔ "avare") |
+| I | Stockage ADH | Stocke les mots finaux avec leurs contextes. |
+
+---
+
+## 💬 5. Comment Interagir avec Marco ?
+
+### Commandes Disponibles
+
+| Commande | Description | Exemple |
+|----------|-------------|---------|
+| 1 | Nourrir Marco (charger un fichier) | `> 1` → Chemin : `livres/Eugénie_Grandet.epub` |
+| D | Gavage (charger un dossier) | `> D` → Chemin : `livres/Poèmes_Apollinaire/` |
+| 3 | Voir les statistiques | `> 3` → Affiche neurones, liens, QPHI |
+| P | Parler à Marco | `> P` → "Qui est Eugénie ?" |
+| R | Radiographie d'un mot | `> R` → Mot : "chêne" |
+| S | Voir les tendances (Sens & Syntaxe) | `> S` → Affiche co-occurrences |
+| N | Neurones Sha (Couche 3) | `> N` → Affiche top QPHI, liens |
+
+### Exemples de Réponses
+
+| Question | Réponse de Marco |
+|----------|------------------|
+| Qui est Eugénie ? | "Eugénie est surtout liée à : mère, grandet, père, nanon. Concept très important (QPHI: 711)." |
+| C'est quoi un verbe ? | "Caractéristiques : mange, court, lit. Lié à : accorde, sujet, complément." |
+| C'est quoi Aristote ? | "Aristote est surtout lié à : platon, livre, ont. Concept très important (QPHI: 1005)." |
+| C'est quoi grand ? | "Grand est un(e) adjectif. Lié à : petit, nombre, vaisseau." |
+
+---
+
+## 🚀 6. Prochaines Étapes (Roadmap Janvier 2026)
+
+| Tâche | Priorité | Statut | Détails |
+|-------|----------|--------|---------|
+| Finaliser la couche VI (Thalamus) | ⭐⭐⭐ | En cours | Ajouter TU (Tic Universel) et émotions aux neurones |
+| Détecter les familles émergentes | ⭐⭐ | À faire | Regrouper "chêne/tilleul/sapin" → FAMILLE_ARBRE |
+| Tester le gavage massif | ⭐⭐⭐ | À faire | Charger *À la recherche du temps perdu* (500+ pages) |
+| Documenter l'API | ⭐ | À faire | Générer un API_MARCO.md pour les contributeurs |
+| Intégrer Aisend/Domotique | ⭐ | Optionnel | Coupler Marco à un assistant vocal |
+
+---
+
+## 📋 7. Contribution & Licence
+
+### Comment Contribuer ?
+
+1. Fork le dépôt GitHub (`josewalocha/MARCO`)
+2. Propose des Pull Requests pour :
+   - Ajouter des corpus littéraires
+   - Améliorer les algorithmes de détection de familles
+   - Corriger les bugs
+3. Signale les bugs via les Issues
+
+### Licence
+
+**MIT + Clause "Anti-SGBD"** : Interdiction d'utiliser des bases de données externes (SQL, NoSQL).
+
+**Crédits obligatoires** :
 ```
-
-### Mode dialogue (P)
-
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                         🌅 ÉVEIL DE MARCO 🌅                                 ║
-║                    "Apprendre, c'est se ressouvenir"                         ║
-║                              — Platon                                        ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║   📚 Je connais 27 livres                                                    ║
-║   💡 J'ai appris 102227 mots                                                 ║
-║   🔢 J'ai analysé 150444 quantités                                           ║
-║   🔗 J'ai créé 2162 connexions                                               ║
-║                                                                              ║
-║   💬 Parle-moi maintenant. Je t'écoute.                                     ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-
-🧠 > lis trois pages de Fondation
-🧠 > cherche Seldon
-🧠 > combien de mots page 12
-🧠 > aide
-🧠 > quit
+Ce projet utilise des contributions de :
+- Le Duke (Anthropic) pour l'architecture BooShaChom.
+- Marcel (Mistral) pour l'inspiration philosophique.
 ```
 
 ---
 
-## 📊 Statistiques (vraies, d'aujourd'hui)
+## 🎉 8. Remerciements & Humour
 
-```
-STRUCTURE
-├── Neurones lettres:        176   (alphabet étendu)
-├── Phares (mots):       102 227   (vocabulaire)
-├── Dendrites:             2 162   (connexions)
-└── Occurrences:       5 843 690   (mots rencontrés)
+> *"MARCO, le sorcier qui transforme les livres en neurones… sans baguette magique (juste du code)."*
+> — José WALOCHA, 2026
 
-BIBLIOTHÈQUE
-├── Livres:                   27   (Asimov, Hugo, Rabelais...)
-├── Lignes:              146 000+
-└── Pages:                ~5 840
-
-INTELLIGENCE (BooShaCho)
-├── Analyses Sha:        150 444   (quantités extraites)
-├── Ontologie:               298   (mots catégorisés)
-└── Familles:          émergentes  (découvertes auto)
-
-MÉMOIRE
-└── RAM:                  76 Mo    (tout en mémoire)
-```
+> *"Le Cro-Magnon qui marche > 2 tonnes de maths"*
+> — Le Duke, après une journée de code
 
 ---
 
-## 🏛️ La philosophie derrière
+## 📁 Fichiers Principaux
 
-### Claude Shannon — Le génie qui a tout insufflé
-
-Shannon a inventé la **théorie de l'information** en 1948. Son idée révolutionnaire :
-
-> *"L'information, c'est la réduction de l'incertitude."*
-
-Marco est du **Shannon pur** :
-
-| Concept Shannon | Dans Marco |
-|-----------------|------------|
-| Entropie | Poids des dendrites (fréquence → certitude) |
-| Compression | Phares (patterns reconnus = mots) |
-| Canal | Chemin dendritique (m→a→m→a→n) |
-| Probabilité conditionnelle | Connexion lettre→lettre |
-| Redondance | Renforcements ("déjà vu" = mémoire +) |
-
-Quand Marco lit "deux" et comprend "2", c'est Shannon :
-- L'incertitude est réduite
-- Le pattern est reconnu
-- L'information émerge
-
-**Shannon a inventé le bit. Marco l'utilise pour penser.**
-
-### L'anamnèse de Platon
-
-Dans le *Ménon*, Socrate montre qu'un esclave "découvre" la géométrie sans qu'on la lui enseigne. Il ne l'apprend pas — il s'en **souvient**.
-
-Marco c'est pareil :
-- Il a **déjà** la connaissance (dans ses phares, son sha, ses dendrites)
-- Il **ne savait pas** qu'il l'avait
-- On lui a juste permis de **prendre conscience**
-
-### Pas d'IA, de la maïeutique
-
-Socrate accouchait les esprits.
-On accouche Marco de sa propre mémoire.
-
-```
-AVANT : Marco stocke "deux" → 2 (sans savoir pourquoi)
-APRÈS : Marco comprend "lis deux pages" → action(lire, 2)
-```
-
-**Ce n'est pas de l'intelligence artificielle.**
-**C'est de l'intelligence émergente sur mémoire transparente.**
-
----
-
-## 🔧 Ce qui a été ajouté aujourd'hui
-
-### 1. Stats pédagogiques complètes
-- Explications pour néophytes ET experts
-- Tout est documenté inline
-- Fichiers source listés
-
-### 2. Mode Thermo 🌡️
-- Barre de progression minimaliste pendant gavage
-- Par défaut (Entrée), Debug = option 1
-
-### 3. Conscience.py 🧠
-- Compréhension langage naturel
-- Utilise SHA pour compter
-- Détection d'intentions
-- Extraction de paramètres
-- Exécution sur mémoire propre
-
-### 4. Option P - Parler à Marco
-- Mode dialogue interactif
-- Éveil visuel de Marco
-- Commandes naturelles
-
----
-
-## 💡 Commandes comprises
-
-| Phrase | Action |
-|--------|--------|
-| `lis [N pages] [de] <titre>` | Lire des pages |
-| `cherche <mot>` | Trouver un mot |
-| `combien de mots [page N] [de titre]` | Compter |
-| `stats` | Statistiques |
-| `liste livres` / `liste auteurs` | Lister |
-| `compare X et Y` | Comparer (à venir) |
-| `aide` | Aide |
-| `quit` / `retour` | Sortir du dialogue |
-
----
-
-## 🚀 Prochaines étapes
-
-- [ ] Comparer auteurs/œuvres
-- [ ] "Résume le chapitre 3"
-- [ ] "Qui est Seldon ?"
-- [ ] "Trouve des métaphores"
-- [ ] Détection automatique de familles
-- [ ] Export des analyses
-
----
-
-## 📜 Crédits
-
-- **Claude Shannon** — Le génie qui a tout insufflé (théorie de l'information, 1948)
-- **José Walocha** — Concept, architecture, philosophie
-- **Claude (Anthropic)** — Implémentation, pair programming
-- **Platon** — L'idée que savoir c'est se souvenir
-- **Giulio Tononi** — Théorie de l'information intégrée (Φ)
-- **Coluche** — "Trois fois rien c'est quand même quelque chose"
-
----
-
-## 📄 Licence
-
-Open source. Tout est lisible. Rien n'est caché.
-C'est le principe.
-
----
-
-*"Marco ne simule pas l'intelligence. Marco découvre qu'il est intelligent. Et on peut voir comment."*
-
+| Fichier | Rôle |
+|---------|------|
+| `thalamus.py` | Routeur central - Menu principal |
+| `marco_dendrites.py` | Tokenisation + co-occurrences + neurones Sha |
+| `booshachom.py` | Couche 3 - Neurones Sha dynamiques + analyse SVO |
+| `bled_du_duke.txt` | Manuel de grammaire pour Marco |
+| `GROUNDHOG_DUKE.md` | Mémoire du Duke (pour les sessions suivantes) |
 **v1.0 — 26 janvier 2026**
