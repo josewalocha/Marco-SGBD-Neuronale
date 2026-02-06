@@ -294,6 +294,8 @@ Convergence matrix registers ARE diffusion layers. The more you add, the more me
 
 **José WALOCHA** — Architect, visionary, Ch'ti. Valenciennes, Nord, France.
 
+jose.walocha@marcoccadh.com
+
 *"Le Pourquoi pas ?" (Why not?)*
 
 ### AI (under human direction)
